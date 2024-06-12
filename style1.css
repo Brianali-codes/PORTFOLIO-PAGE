@@ -1,0 +1,552 @@
+#start {
+
+
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
+    gap: 10px;
+
+
+
+
+
+}
+
+#main {
+
+
+    padding: auto;
+    background-color: transparent;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+#buttons {
+
+
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 50px;
+    width: 210px;
+    border: none;
+    margin-top: 20px;
+
+
+
+
+
+
+}
+
+#buttons:hover {
+
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px gray;
+
+
+
+}
+
+#buttons:active {
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 106);
+    cursor: pointer;
+    box-shadow: 10px 10px 5px gray;
+
+
+
+}
+
+.info {
+
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.content {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1px;
+    padding: auto;
+    background-color: transparent;
+    gap: 40px;
+    position: fixed;
+    width: 100%;
+    border-radius: 30px;
+
+}
+
+.background {
+
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+
+
+
+
+}
+
+.headers {
+
+    font-size: 190px;
+    color: cyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 120px;
+
+
+}
+
+#nav-bar {
+
+    margin-top: 50px;
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    gap: 10px;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+}
+
+#ABOUT {
+
+
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    margin-left: 3px;
+    padding-top: 90px;
+
+
+}
+
+#GENRES {
+
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    margin-left: 3px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+}
+
+#LINKS {
+
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    margin-left: 3px;
+    padding-top: 100px;
+
+
+
+
+
+
+}
+
+#CONTACTS {
+
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    margin-left: 3px;
+    padding-top: 100px;
+
+
+
+}
+
+
+#decos {
+
+
+    font-size: 20px;
+    font-family: TT Supermolot Neue, Impact, Haettenschweiler, cursive, 'Arial Narrow Bold', sans-serif
+}
+
+.contents {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 70px;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-left: 30px;
+    background-color: transparent;
+    gap: 15px;
+    width: 85%;
+    transition: 1s;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+
+
+
+
+}
+
+body {
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+.contents::-webkit-scrollbar {
+    display: none;
+}
+
+#icon1 {
+
+    width: 490px;
+    margin-top: 200px;
+    height: 480px;
+    border-radius: 30px;
+
+}
+
+.submit {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 50px;
+    width: 210px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.submit:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 255, 35);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+
+
+}
+
+.submit:active {
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    box-shadow: 10px 10px 5px gray;
+
+
+}
+
+#display {
+    border: none;
+    height: 40px;
+    width: 210px;
+    font-size: medium;
+}
+
+.mail-icon {
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+
+
+}
+
+.end {
+
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-left: 300px;
+
+
+}
+
+.redirect {
+
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 50px;
+    width: 210px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10rem;
+
+}
+
+.redirect:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 255, 35);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+
+
+
+
+
+}
+
+#linkers {
+
+
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.game-type {
+
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.icon2 {
+
+    width: 490px;
+    margin-top: 150px;
+    height: 480px;
+    border-radius: 30px;
+
+
+
+
+}
+
+.RPG {
+
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    margin-left: 3px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+
+
+}
+
+.PLATFORMER {
+
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    margin-left: 3px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+
+}
+
+.ACTION-ADVENTURE {
+
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    margin-left: 3px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+
+}
+
+.SOULS-LIKE {
+
+
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    margin-left: 3px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.SPORTS {
+
+
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    margin-left: 3px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+
+}
+
+.SIMULATION {
+
+    background-color: transparent;
+    height: 95vh;
+    scroll-snap-align: start;
+    margin-left: 3px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+}
+
+.icon3 {
+
+    width: 490px;
+    margin-top: 220px;
+    height: 480px;
+    border-radius: 30px;
+
+
+
+}
+
+@media (width < 500px) {
+
+    content.nav-bar {
+
+        border-radius: 100px;
+        width: 400px;
+
+    }
+
+
+
+
+
+}
+
+.description {
+
+    font-size: 22px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+
+
+}
+.redirect2{
+
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 50px;
+    width: 210px;
+    border: none;
+    margin-top: 20px;
+    
+
+
+}
+.newpage{
+
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 50px;
+    width: 210px;
+    border: none;
+    margin-top: 20px;
+    
+
+
+
+
+
+
+}
+
+.redirect2:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 255, 35);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+
+}
+.newpage:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 255, 35);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+
+
+
+
+
+}
+.page2{
+
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(0, 0, 0);
+    margin: 30px;
+    gap: 250px;
+}
+.button2{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+.genres-image{
+    height: 500px;
+    width: 700px;
+    margin-right: 200px;
+    border-radius: 20px;
+
+
+
+
+
+}
+.background2{
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 30px;
+
+
+
+}
