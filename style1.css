@@ -36,7 +36,6 @@
     width: 210px;
     margin-top: 20px;
     border-color: transparent;
-    transition :0.6s;
 
 
 
@@ -53,7 +52,6 @@
     cursor: pointer;
     border-color: rgb(255, 255, 255);
     border-style: double;
-    transition :0.6s;
 
 
 }
@@ -64,7 +62,6 @@
     background-color: rgb(255, 255, 255);
     cursor: pointer;
     border-color: transparent;
-    transition :0.6s;
 
 
 
@@ -329,7 +326,7 @@ body {
 .game-type {
 
     font-size: 50px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 2, 2);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
@@ -439,261 +436,10 @@ body {
 
 
 }
-
-@media ( max-width : 700px ) {
-
-
-    
-    .content{
-
-    display: none;
-
-    }
-    .contents{
-
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-right: 200px;
-
-
-
-    }
-
-    #nav-bar{
-
-        display: grid;
-        justify-content: center;
-
-
-    }
-    .headers{
-        font-size: 100px;
-        margin-top: 200px;
-    }
-    #icon1{
-        display: none;
-    }
-    #GENRES{
-
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-    .genre{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 500px;
-        margin: auto;
-        margin-bottom: 0px;
-        margin-top: -100px;
-
-    }
-    .img1{
-
-        display: none;
-    }
-    .RPG{
-
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        
-
-    }
-    .roles1{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 500px;
-        margin: auto;
-        margin-top: -300px;
-        font-size: 15px;
-
-    }
-    .icon1{
-
-        display: none;
-    }
-    #Credit{
-
-        display: none;
-    }
-
-    .PLATFORMER{
-
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-    .pf{
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 500px;
-        margin: auto;
-        margin-top: 40px;
-        font-size: 15px;
-
-
-
-    }
-    .icon22{
-        display: none;
-    }
-    .ACTION-ADVENTURE{
-
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-
-
-    }
-    .icon23{
-        display: none;
-    }
-    .aad{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 500px;
-        margin: auto;
-        margin-top: 40px;
-        font-size: 15px;
-
-
-    }
-    .SOULS-LIKE{
-
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-
-
-    }
-    .sl{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 500px;
-        margin: auto;
-        margin-top: 40px;
-        font-size: 15px;
-
-
-
-
-    }
-    .SPORTS{
-
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-    .icon24{
-
-        display: none;
-    }
-    .sg{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 500px;
-        margin: auto;
-        margin-top: 40px;
-        font-size: 15px;
-
-
-
-
-
-    }
-    .icon25{
-
-        display: none;
-
-
-
-
-    }
-    .SIMULATION{
-
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-
-
-    }
-    .sm{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 500px;
-        margin: auto;
-        margin-top: 40px;
-        font-size: 15px;
-
-
-
-
-
-    }
-    .icon27{
-        display: none;
-    }
-    #ABOUT{
-
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-
-
-    }
-    .info{
-
-
-        font-size: 20px;
-    }
-    .end{
-
-        display: none;
-    }
-    .page2{
-
-        display: flex;
-
-
-
-    }
-    .image{
-
-        display: none;
-
-    }
-    .button2{
-        
-        display: flex;
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-}
-
 .description {
 
     font-size: 22px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
@@ -790,3 +536,262 @@ body {
 
 
 }
+
+
+@media ( max-width : 700px ) {
+
+
+    
+    .content{
+
+    display: none;
+
+    }
+    .contents{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-right: 200px;
+
+
+
+    }
+
+    #nav-bar{
+
+        display: grid;
+        justify-content: center;
+
+
+    }
+    .headers{
+        
+        font-size: 80px;
+        margin-top: 250px;
+        margin-right: 100px;
+
+    }
+    #icon1{
+        display: none;
+    }
+    #GENRES{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .genre{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 330px;
+        margin-left: 25px;
+        margin-bottom: 0px;
+        margin-top: -100px;
+
+    }
+    .img1{
+
+        display: none;
+    }
+    .RPG{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+
+    }
+    .roles1{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        margin-left: 25px;
+        margin-top: -600px;
+        font-size: 15px;
+
+    }
+    .icon1{
+
+        display: none;
+    }
+    #Credit{
+
+        display: none;
+    }
+
+    .PLATFORMER{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .pf{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        margin-left: 25px;
+        margin-top: -120px;
+        font-size: 15px;
+
+
+
+    }
+    .icon22{
+        display: none;
+    }
+    .ACTION-ADVENTURE{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+    .icon23{
+        display: none;
+    }
+    .aad{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        margin-left: 25px;
+        margin-top: -150px;
+        font-size: 15px;
+
+
+    }
+    .SOULS-LIKE{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+    .sl{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        margin-left: 25px;
+        margin-top: -120px;
+        font-size: 15px;
+
+
+
+
+    }
+    .SPORTS{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .icon24{
+
+        display: none;
+    }
+    .sg{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        margin-left: 25px;
+        margin-top: -140px;
+        font-size: 15px;
+
+
+
+
+
+    }
+    .icon25{
+
+        display: none;
+
+
+
+
+    }
+    .SIMULATION{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+    .sm{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        margin-left: 25px;
+        margin-top: -300px;
+       
+
+    }
+    .icon27{
+        display: none;
+    }
+    #ABOUT{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+        width: 350px;
+        margin-top: -200px;
+        
+
+    }
+    .info{
+
+        font-size: 16px;
+    }
+    .end{
+
+        display: none;
+    }
+    .page2{
+
+        display: flex;
+
+
+
+    }
+    .image{
+
+        display: none;
+
+    }
+    .button2{
+        display: flex;
+
+    }
+    .description {
+
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
