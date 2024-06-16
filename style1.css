@@ -40,9 +40,6 @@
 
 
 
-
-
-
 }
 
 #buttons:hover {
@@ -52,7 +49,7 @@
     cursor: pointer;
     border-color: rgb(255, 255, 255);
     border-style: double;
-
+    transition: 0.6s;
 
 }
 
@@ -538,10 +535,10 @@ body {
 }
 
 
-@media ( max-width : 700px ) {
+@media ( max-width : 720px ) {
 
 
-    
+      
     .content{
 
     display: none;
@@ -551,9 +548,9 @@ body {
 
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-right: 200px;
-
-
+        width: 520px;
+        margin: none;
+        padding: none;
 
     }
 
@@ -561,18 +558,28 @@ body {
 
         display: grid;
         justify-content: center;
-
-
+        grid-template-columns: repeat(2, 1fr);
+        width: 520px;
+        margin-right: 180px;
+        margin-top: -200px;
     }
     .headers{
         
-        font-size: 80px;
+        font-size: 70px;
+        rotate: -90deg;
         margin-top: 250px;
-        margin-right: 100px;
+        margin-right: none;
+        margin-left: 240px;
 
     }
     #icon1{
-        display: none;
+
+        width: 200px;
+        height: 200px;
+        margin-right: 10px;
+        margin-left: -100px;
+        margin-top: 400px;
+        
     }
     #GENRES{
 
@@ -586,9 +593,9 @@ body {
         flex-direction: column;
         justify-content: center;
         width: 330px;
-        margin-left: 25px;
+        margin-left: 100px;
         margin-bottom: 0px;
-        margin-top: -100px;
+        margin-top: -150px;
 
     }
     .img1{
@@ -608,8 +615,8 @@ body {
         flex-direction: column;
         justify-content: center;
         width: 300px;
-        margin-left: 25px;
-        margin-top: -600px;
+        margin-left: 100px;
+        margin-top: -300px;
         font-size: 15px;
 
     }
@@ -634,7 +641,7 @@ body {
         flex-direction: column;
         justify-content: center;
         width: 350px;
-        margin-left: 25px;
+        margin-left: 100px;
         margin-top: -120px;
         font-size: 15px;
 
@@ -660,8 +667,8 @@ body {
         flex-direction: column;
         justify-content: center;
         width: 350px;
-        margin-left: 25px;
-        margin-top: -150px;
+        margin-left: 100px;
+        margin-top: -170px;
         font-size: 15px;
 
 
@@ -679,7 +686,7 @@ body {
         flex-direction: column;
         justify-content: center;
         width: 350px;
-        margin-left: 25px;
+        margin-left: 100px;
         margin-top: -120px;
         font-size: 15px;
 
@@ -703,7 +710,7 @@ body {
         flex-direction: column;
         justify-content: center;
         width: 350px;
-        margin-left: 25px;
+        margin-left: 105px;
         margin-top: -140px;
         font-size: 15px;
 
@@ -733,7 +740,7 @@ body {
         flex-direction: column;
         justify-content: center;
         width: 350px;
-        margin-left: 25px;
+        margin-left: 100px;
         margin-top: -300px;
        
 
@@ -745,10 +752,17 @@ body {
 
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 10px;
+        margin-left: 100px;
         width: 350px;
-        margin-top: -200px;
+        margin-bottom: 200px;
         
+
+    }
+    #LINKS{
+
+        font-size: 10px;
+
+
 
     }
     .info{
@@ -762,6 +776,7 @@ body {
     .page2{
 
         display: flex;
+        justify-content: center;
 
 
 
@@ -772,7 +787,12 @@ body {
 
     }
     .button2{
+        
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 100px;
+
 
     }
     .description {
@@ -782,6 +802,10 @@ body {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     
+    }
+    #CONTACTS{
+        margin-left: 70px;
+
     }
 
 
