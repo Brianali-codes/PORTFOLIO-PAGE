@@ -293,28 +293,21 @@
 
             <br><br><br><br><br><br>
             <div id="CONTACTS">
-
-                <p class="info">Subscribe to our NEWSLETTER for more gaming related news</p>
-                <p id="linkers">Email</p>
-                <input type="text" id="display" placeholder="Your Email"><br><br>
-                <textarea name="messages" id="message"></textarea><br>
-                <button class="submit" onclick="userHandle()">SUBMIT</button>
+                <p class="info">Message me : </p>
+                <form action="send_email.php" method="post">
+                    <p id="linkers">Email</p>
+                    <input type="text" name="email" id="display" placeholder="Your Email" required><br><br>
+                    <textarea name="message" id="message" placeholder="message me" required></textarea><br>
+                    <button type="submit" class="submit">SUBMIT</button>
+                </form>
                 <p class="info">Note : your Email is only used for communication.</p>
-
                 <p class="info">CONTACT ME:</p>
                 <p class="info"> <img class="mail-icon" src="images/mail.jpg" alt="mail">plasticfoods427@gmail.com</p>
-                <p class="info"> <img class="mail-icon" src="images/git.png" alt="github"> <a
-                        href="https://github.com/gamerfunky78" target="_blank">https://github.com/gamerfunky78 </a></p>
-                <br><br><br><br><br>
-                <p class="end">copyright reserved | BRIAN ALI | © 2024</p>
+                <p class="info"> <img class="mail-icon" src="images/git.png" alt="github"> <a href="https://github.com/gamerfunky78" target="_blank">https://github.com/gamerfunky78 </a></p>
+                <p class="end"> copyright reserved | BRIAN ALI | © 2024</p>
             </div>
-
-
         </div>
-
     </div>
     <script src="index1.js"></script>
-
 </body>
-
 </html>
