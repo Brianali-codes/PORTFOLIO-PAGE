@@ -575,12 +575,7 @@ body {
     }
     #icon1{
 
-        width: 100px;
-        height: 200px;
-        margin-right: 10px;
-        margin-left: -90px;
-        margin-top: 400px;
-        
+        display: none;
     }
     #GENRES{
 
@@ -688,7 +683,7 @@ body {
         justify-content: center;
         width: 350px;
         margin-left: 100px;
-        margin-top: -120px;
+        margin-top: -170px;
         font-size: 15px;
 
 
@@ -762,13 +757,12 @@ body {
     #LINKS{
 
         font-size: 10px;
-
-
+        margin-left: 100px;
 
     }
     .info{
 
-        font-size: 16px;
+        font-size: 12px;
     }
     .end{
 
@@ -805,8 +799,14 @@ body {
     
     }
     #CONTACTS{
-        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 70px;
+        text-wrap: 10px;
 
+    }
+    #nan{
+        display: none;
     }
 
 
