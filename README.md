@@ -1,2 +1,2 @@
 # gaming_website
-just a simple Informative website for all my fellow gamers.
+A simple website i made for my portfolio to showcase my expertise in html and css
