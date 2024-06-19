@@ -270,6 +270,7 @@ body {
     height: 90px;
     width: 250px;
     font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
     text-align: left;
     resize: none;
