@@ -1,6 +1,5 @@
 function user_handle(){
 
-
-    document.getElementById("linkers").innerHTML = "Please wait...." 
+    document.getElementById("linkers").textContent = "Please wait...." 
 
 } 
