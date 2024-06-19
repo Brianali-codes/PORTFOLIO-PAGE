@@ -831,4 +831,25 @@ body {
 
 
 }
+.page{
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color:cyan;
+    height: 800px;
+    border-radius: 20px;
 
+}
+.sus{
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+
+}
+.thanks{
+    font-size: 50px;
+
+}
